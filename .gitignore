@@ -1,1 +1,6 @@
-/Objects
+Objects/
+/keil5_code/MDK/Objects/
+keil5_code/MDK/Objects/
+*.0
+*.d
+*.crf

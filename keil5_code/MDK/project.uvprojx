@@ -638,6 +638,11 @@
               <FileType>1</FileType>
               <FilePath>..\USER\algorithm\Low_pass.c</FilePath>
             </File>
+            <File>
+              <FileName>DJI_remote.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\APP\DJI_remote.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

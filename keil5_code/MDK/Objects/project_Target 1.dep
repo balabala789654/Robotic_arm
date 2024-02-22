@@ -1,6 +1,6 @@
 Dependencies for Project 'project', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\main.c)(0x65D5EE8E)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x65D6EC9B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\Driver\CORE\stm32f4xx.h)(0x65AA5D69)
 I (..\Driver\CORE\core_cm4.h)(0x64B093FD)
 I (D:\KEIL\ARM\KEILV5\ARM\ARMCC\include\stdint.h)(0x6334537C)
@@ -48,8 +48,7 @@ I (D:\KEIL\ARM\KEILV5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (..\HARDWARE\inc\can.h)(0x65A8CF4B)
 I (..\HARDWARE\inc\timer.h)(0x64B09402)
 I (..\HARDWARE\inc\gpio.h)(0x64B09402)
-I (..\USER\APP\Remote_Control.h)(0x65A8FCAA)
-I (..\HARDWARE\inc\usart.h)(0x65A8FCB8)
+I (..\USER\APP\DJI_remote.h)(0x65D6EC84)
 F (..\Driver\CORE\stm32f4xx_it.c)(0x64B093FD)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
 I (..\Driver\CORE\stm32f4xx_it.h)(0x64B093FD)
 I (..\Driver\CORE\stm32f4xx.h)(0x65AA5D69)
@@ -1436,7 +1435,7 @@ I (..\Driver\FWLIB\inc\stm32f4xx_dac.h)(0x64B093FD)
 I (..\Driver\FWLIB\inc\stm32f4xx_dcmi.h)(0x64B093FD)
 I (..\Driver\FWLIB\inc\stm32f4xx_fsmc.h)(0x64B093FD)
 I (D:\KEIL\ARM\KEILV5\ARM\ARMCC\include\stdio.h)(0x60252374)
-F (..\USER\APP\arm_4.c)(0x65D5F26F)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\arm_4.o --omf_browse .\objects\arm_4.crf --depend .\objects\arm_4.d)
+F (..\USER\APP\arm_4.c)(0x65D6AF72)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\arm_4.o --omf_browse .\objects\arm_4.crf --depend .\objects\arm_4.d)
 I (..\USER\APP\arm_4.h)(0x65D5EE1C)
 I (D:\KEIL\ARM\KEILV5\ARM\ARMCC\include\math.h)(0x60252378)
 I (..\USER\APP\CyberGear.h)(0x65AB73A6)
@@ -1523,7 +1522,7 @@ I (..\Driver\FWLIB\inc\stm32f4xx_fsmc.h)(0x64B093FD)
 I (..\USER\SYSTEM\inc\delay.h)(0x64B09403)
 I (..\USER\SYSTEM\inc\sys.h)(0x65A8FCCC)
 I (D:\KEIL\ARM\KEILV5\ARM\ARMCC\include\stdio.h)(0x60252374)
-F (..\USER\APP\CubeMars_AK80_8.c)(0x65D5FD5A)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\cubemars_ak80_8.o --omf_browse .\objects\cubemars_ak80_8.crf --depend .\objects\cubemars_ak80_8.d)
+F (..\USER\APP\CubeMars_AK80_8.c)(0x65D6B011)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\cubemars_ak80_8.o --omf_browse .\objects\cubemars_ak80_8.crf --depend .\objects\cubemars_ak80_8.d)
 I (..\USER\APP\CubeMars_AK80_8.h)(0x65ACCD20)
 I (..\Driver\CORE\stm32f4xx.h)(0x65AA5D69)
 I (..\Driver\CORE\core_cm4.h)(0x64B093FD)
@@ -1641,6 +1640,47 @@ I (..\Driver\FWLIB\inc\stm32f4xx_fsmc.h)(0x64B093FD)
 I (..\USER\SYSTEM\inc\sys.h)(0x65A8FCCC)
 F (..\USER\algorithm\Low_pass.c)(0x65A938DD)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\low_pass.o --omf_browse .\objects\low_pass.crf --depend .\objects\low_pass.d)
 I (..\USER\algorithm\Low_pass.h)(0x65A92153)
+F (..\USER\APP\DJI_remote.c)(0x65D6FA40)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\dji_remote.o --omf_browse .\objects\dji_remote.crf --depend .\objects\dji_remote.d)
+I (..\USER\APP\Remote_Control.h)(0x65A8FCAA)
+I (..\HARDWARE\inc\usart.h)(0x65A8FCB8)
+I (D:\KEIL\ARM\KEILV5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Driver\CORE\stm32f4xx_conf.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_adc.h)(0x64B093FD)
+I (..\Driver\CORE\stm32f4xx.h)(0x65AA5D69)
+I (..\Driver\CORE\core_cm4.h)(0x64B093FD)
+I (D:\KEIL\ARM\KEILV5\ARM\ARMCC\include\stdint.h)(0x6334537C)
+I (..\Driver\CORE\core_cmInstr.h)(0x64B093FD)
+I (..\Driver\CORE\core_cmFunc.h)(0x64B093FD)
+I (..\Driver\CORE\core_cm4_simd.h)(0x64B093FD)
+I (..\Driver\CORE\system_stm32f4xx.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_crc.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_dma.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_exti.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_flash.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_gpio.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_i2c.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_iwdg.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_pwr.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_rcc.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_rtc.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_sdio.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_spi.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_syscfg.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_tim.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_usart.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_wwdg.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\misc.h)(0x65A73133)
+I (..\Driver\FWLIB\inc\stm32f4xx_cryp.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_hash.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_rng.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_can.h)(0x65A734E5)
+I (..\Driver\FWLIB\inc\stm32f4xx_dac.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_dcmi.h)(0x64B093FD)
+I (..\Driver\FWLIB\inc\stm32f4xx_fsmc.h)(0x64B093FD)
+I (..\USER\SYSTEM\inc\sys.h)(0x65A8FCCC)
+I (..\USER\APP\DJI_remote.h)(0x65D6EC84)
+I (D:\KEIL\ARM\KEILV5\ARM\ARMCC\include\math.h)(0x60252378)
 F (..\HARDWARE\src\can.c)(0x65ABA172)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Driver\CORE -I ..\Driver\FWLIB\inc -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\include -I ..\FreeRTOS\FreeRTOS_v2\FreeRTOSv202212.01\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\HARDWARE\inc -I ..\USER\SYSTEM\inc -I ..\USER\APP -I ..\USER\algorithm-ID:\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
 I (..\HARDWARE\inc\can.h)(0x65A8CF4B)
 I (..\Driver\CORE\stm32f4xx.h)(0x65AA5D69)

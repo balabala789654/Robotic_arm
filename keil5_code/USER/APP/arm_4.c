@@ -118,8 +118,8 @@ void Arm_4_debug(float _param_1, float _param_2, float _param_3, float _param_4)
 	
 //	CyberGear_control(5.0f, deg_to_rad(param_2), 0.0f);
 //	Ak80_8_coltrol(deg_to_rad(_param_1));
-//	Ak80_8_control_servo(_param_1);
-	DJI_motor_control(deg_to_rad(_param_3), deg_to_rad(_param_4));
+	Ak80_8_control_servo(_param_1);
+//	DJI_motor_control(deg_to_rad(_param_3), deg_to_rad(_param_4));
 	return;
 }
 

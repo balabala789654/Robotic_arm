@@ -4,7 +4,7 @@
 #include "can.h"
 #include "timer.h"
 #include "gpio.h"
-#include "Remote_Control.h"
+#include "DJI_remote.h"
 
 //debug
 int speed_1 = 0;
@@ -24,23 +24,24 @@ int main()
 {
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);	//设置系统中断优先级分组4
 	delay_init(168);
-//	TIM1_Int_Init(5000-1, 1680-1);
 	CAN1_Mode_Init(CAN_SJW_1tq,CAN_BS2_4tq,CAN_BS1_9tq,3,CAN_Mode_Normal);
 	CAN2_Mode_Init(CAN_SJW_1tq,CAN_BS2_4tq,CAN_BS1_9tq,3,CAN_Mode_Normal);
 	
 	delay_ms(3000);//等待电机
 	TIM3_Int_Init(5000-1, 8400-1);
-
 	gpio_Init();
-//	remote_control_init();
 	
 	CAN_WakeUp(CAN1);
 	CAN_WakeUp(CAN2);
 	delay_ms(1);
+	
+	DJI_remote_init();
 	Arm_4_init();
 	
 	while(1){
-//		Arm_4_debug(pos_1, pos_2, pos_3, pos_4);
+//		Arm_4_debug(pos_1, pos_2, pos_3, pos_4); //调试使用
+		
+		DJI_remote_control(&x, &y, &z, &angle);
 		Arm_4_control(x, y, z, angle);
 		delay_ms(1);
 	}

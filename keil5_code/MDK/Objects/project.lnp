@@ -47,6 +47,7 @@
 ".\objects\dji_6020_2006.o"
 ".\objects\remote_control.o"
 ".\objects\low_pass.o"
+".\objects\dji_remote.o"
 ".\objects\can.o"
 ".\objects\gpio.o"
 ".\objects\timer.o"

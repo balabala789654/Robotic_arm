@@ -47,5 +47,4 @@
 .\objects\main.o: ..\HARDWARE\inc\can.h
 .\objects\main.o: ..\HARDWARE\inc\timer.h
 .\objects\main.o: ..\HARDWARE\inc\gpio.h
-.\objects\main.o: ..\USER\APP\Remote_Control.h
-.\objects\main.o: ..\HARDWARE\inc\usart.h
+.\objects\main.o: ..\USER\APP\DJI_remote.h

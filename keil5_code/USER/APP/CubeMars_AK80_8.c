@@ -181,7 +181,6 @@ void comm_can_set_pos(uint8_t controller_id, float pos) {
 
 //设置原点模式
 void comm_can_set_origin(uint8_t controller_id, uint8_t set_origin_mode) {
-	int32_t send_index = 0;
 	uint8_t buffer;
 	buffer=set_origin_mode;	//设置指令为 uint8_t 型， 0 代表设置临时原点(断电消除)， 1 代表设置永久零点(参数自动保存);
 	comm_can_transmit_eid(controller_id |
@@ -199,8 +198,8 @@ void comm_can_set_pos_spd(uint8_t controller_id, float pos,int16_t spd, int16_t 
 	int16_t send_index1 = 4;
 	uint8_t buffer[8];
 	buffer_append_int32(buffer, (int32_t)(pos * 10000.0f), &send_index);
-	buffer_append_int16(buffer,spd/10.0, & send_index1);
-	buffer_append_int16(buffer,RPA/10.0, & send_index1);
+	buffer_append_int16(buffer,spd, &send_index1);
+	buffer_append_int16(buffer,RPA, &send_index1);
 	comm_can_transmit_eid(controller_id |
 						((uint32_t)CAN_PACKET_SET_POS_SPD << 8), buffer, send_index1);
 }
@@ -332,7 +331,9 @@ void AK80_8_stop(void){
 }
 
 void Ak80_8_control_servo(float _param){
-	comm_can_set_pos(0x7f, _param);
+	
+	comm_can_set_pos_spd(0x7f, _param, 1000, 20);
+//	comm_can_set_pos(0x7f, _param);
 }
 
 
