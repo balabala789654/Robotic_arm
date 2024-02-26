@@ -20,7 +20,7 @@
 
 ###  核心公式：余弦定理
 
-![余弦定理](.\assets\pic\1.png)
+![余弦定理](https://github.com/balabala789654/Robotic_arm/blob/master/assets/pic/1.png)
 
 
 
@@ -109,7 +109,7 @@ void Arm_4_init(void){
 
 这三个参数为电机的初始角度，目的是为了使机械臂在上电后运动到**初始姿态**，机械臂的**初始姿态**为
 
-![机械臂的初始姿态](.\assets\pic\2.png)
+![机械臂的初始姿态](https://github.com/balabala789654/Robotic_arm/blob/master/assets/pic/2.png)
 
 如果在之后的使用中发现机械臂并没有在上电后保持该**初始姿态**，则需调节参数，参数为**角度制**
 
